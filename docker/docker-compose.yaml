@@ -292,7 +292,7 @@ services:
 
   # The DifySandbox
   sandbox:
-    build: https://github.com/natejacksonsdi/dify-sandbox.git#main:docker
+    build: https://github.com/natejacksonsdi/dify-sandbox.git#main:docker/amd64
     restart: always
     environment:
       # The DifySandbox configurations
