@@ -292,7 +292,7 @@ services:
 
   # The DifySandbox
   sandbox:
-    image: langgenius/dify-sandbox:0.2.7
+    build: https://github.com/natejacksonsdi/dify-sandbox.git
     restart: always
     environment:
       # The DifySandbox configurations
