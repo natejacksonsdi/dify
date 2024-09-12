@@ -292,11 +292,7 @@ services:
 
   # The DifySandbox
   sandbox:
-    build: 
-      context: .
-      dockerfile: ./docker/amd64/dockerfile
-      additional_contexts:
-        source: https://github.com/natejacksonsdi/dify-sandbox.git#main
+    build: langgenius/dify-sandbox:0.2.7
     restart: always
     environment:
       # The DifySandbox configurations
