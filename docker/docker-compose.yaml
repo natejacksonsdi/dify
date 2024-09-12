@@ -292,7 +292,7 @@ services:
 
   # The DifySandbox
   sandbox:
-    build: langgenius/dify-sandbox:0.2.7
+    image: langgenius/dify-sandbox:0.2.7
     restart: always
     environment:
       # The DifySandbox configurations
